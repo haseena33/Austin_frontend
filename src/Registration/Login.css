@@ -1,0 +1,189 @@
+.mmaindiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+  }
+ 
+  @media (max-width: 640px) {
+    .mmaindiv {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: #fff;
+      justify-content: center;
+      top: 25%;
+      position: absolute;
+      width: 100%;
+      padding: 30px 20px 40px 20px;
+    }
+  }
+ 
+  .login_form {
+    color: #0f8945;
+    font-family: Roboto Condensed;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.32px;
+  }
+ 
+  .Logo_text {
+    color: #fff !important;
+    font-size: 25px;
+    height: 100px;
+    font-family: Inter;
+    padding-left: 18px;
+  }
+  .Logo_texts {
+    color: #fff !important;
+    font-size: 25px;
+    height: 100px;
+    background: linear-gradient(90deg, rgb(23, 143, 178), rgb(26, 191, 166), rgb(23, 89, 124));
+    font-family: Inter;
+    padding-left: 18px;
+  }
+  .forgotlink {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Roboto !important;
+    text-decoration: none !important;
+    font-size: 14px !important;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.14px;
+  }
+ 
+  .button {
+    width: -webkit-fill-available;
+    height: 3rem;
+    margin-top: 30px;
+    font-family: Roboto;
+    border-radius: 7px;
+  }
+ 
+  .loginIcon {
+    color: white;
+  }
+ 
+  .login_left_logo .login_form h4 {
+    font-weight: 500;
+    width: 250px;
+    margin: 20px 0 0 35px;
+    text-align: center;
+  }
+ 
+  .login_form h6 {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.55);
+    padding-bottom: 30px;
+    letter-spacing: -0.18px;
+  }
+ 
+  button.MuiButton-containedPrimary {
+    background-color: rgb(23, 143, 178) !important;
+    border-radius: 7px;
+  }
+  .MuiIconButton-edgeEnd .MuiSvgIcon-root {
+    color: black !important;
+  }
+ 
+  .login_left_logo {
+    width: 50%;
+    min-height: 100vh;
+    background-color: #0f8945;
+ 
+  }
+ 
+  .login_form h2 {
+    color: #111111;
+    font-size: 30px;
+  }
+ 
+  .login_form h2 span {
+    color: #688698;
+    font-size: 22px;
+    margin-top: -5px;
+    position: absolute;
+  }
+ 
+  .login_form h4 span {
+    color: #111111;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 15px;
+    position: absolute;
+  }
+ 
+  @media (max-width: 768px) {
+    .login_form h4 span {
+      color: #111111;
+      font-size: 16px;
+      font-weight: 600;
+      margin-left: 0;
+      margin-top: 25px;
+      position: absolute;
+      left: 0;
+    }
+  }
+ 
+  .logo_area {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    mix-blend-mode: multiply;
+  }
+ 
+  .logo_area h2 span {
+    position: absolute;
+    margin-top: -7px;
+    font-weight: 800;
+    font-size: 22px;
+    color: #688698;
+  }
+ 
+  @media (max-width: 768px) {
+    .logo_area {
+      position: relative;
+      margin-left: 0%;
+      display: block;
+    }
+  }
+ 
+  .css-sghohy-MuiButtonBase-root-MuiButton-root {
+    margin-top: 35px !important;
+    font-size: 400;
+    font-size: 18px;
+  }
+ 
+  /****************88Show / Hide sections styles start*********************/
+ 
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+    .hide_at_xs_sm_device {
+      display: none !important;
+    }
+  }
+ 
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+    .show_at_xs_sm_device {
+      display: block !important;
+      top: -40%;
+      position: absolute;
+      width: 100%;
+    }
+  }
+ 
+  @media only screen and (min-width: 768px) and (max-width: 2000px) {
+    .show_at_xs_sm_device {
+      display: none !important;
+      top: -50%;
+      position: absolute;
+      width: 100%;
+    }
+  }
+ 
+ 
+ 
